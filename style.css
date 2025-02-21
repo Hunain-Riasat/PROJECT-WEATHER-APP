@@ -1,0 +1,148 @@
+*{
+    background-color: rgb(87, 127, 130);
+ background-image: "/back.jpg";
+ background-position: fixed;
+ z-index: 1;
+    font-family: 'poppins',sans-serif;
+    color: aliceblue;
+}
+
+
+/* full card for displaying */
+.card{
+border-radius: 5%;
+border-color: 2px solid black;
+height: 300px;
+width: 300px;
+background: linear-gradient(135deg, #00feba ,#5b548a);
+padding: 30px 30px 30px 30px;
+margin-left: 450px;
+margin-top:100px;
+}
+
+
+/* search bar portion starts here */
+.searchbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  
+    background:transparent ;
+    padding-left: 20px;
+}
+#textinput{
+    background:#ebfffc;
+    border-radius:30px ;
+}
+#textinput input{
+    height:20px;
+    background:#ebfffc;
+    padding :10px 10px;
+    margin-left: 20px;
+    color: #282727;
+    border: 0px;
+    outline:0px;
+    border-radius:30px ;
+}
+#searchicon{
+    height:35px;
+    width:35px;
+    border-radius: 50%;
+ border: 0px;
+}
+button{
+    background-color: transparent;
+    border:none;
+}
+#searchbtn{
+    background-color: transparent;
+    border:none;
+}
+/* search bar portion  ends here */
+
+/* weather  portion starts here */
+.weather{
+    padding-top: 25px;
+    display: flex;
+    align-items:center;
+    background-color: transparent;
+    background: transparent;
+    justify-content: center;
+    flex-direction: column;
+}
+.weatherinfo{
+    background: transparent;
+    background-color: transparent;
+    padding-left: 20px;
+}
+#temp{
+  
+    background-color: transparent;
+    font-size: 35px;
+    padding-left: 10px;
+}
+#city-name{
+    background-color: transparent;
+    font-size: 25px;
+}
+
+
+
+
+.otherinfo{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    background-color: transparent;
+    flex-direction:row;
+padding-top: 30px;
+padding-bottom: 20px;
+}
+.hm,.wm{
+    background-color: transparent;
+}
+.humidity{
+    background-color: transparent;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#h-value{
+    padding-left: 10px;
+    font-size: 15px;
+    background-color: transparent;
+}
+#h-name{
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 10px;
+    background-color: transparent;
+}
+
+.space{
+    width: 70px;
+}
+.windspeed{
+    background-color: transparent;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    display: flexbox;
+    align-content: center;
+    justify-content: space-between;
+}
+#w-value{
+    padding-left: 10px;
+    font-size: 15px;
+    background-color: transparent;
+}
+#w-name{
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 10px;
+    background-color: transparent;
+}
+
+
+
